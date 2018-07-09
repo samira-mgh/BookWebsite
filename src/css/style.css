@@ -29,6 +29,28 @@ body {
 #newsletter .form-control {
   border: 1px solid rgba(0, 0, 0, 0.15); }
 
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#author img {
+  margin-top: -50px; }
+
+#author .fa {
+  font-size: 25px; }
+
+#author .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #author .card:hover .fa {
+    color: #fff; }
+
+#main-footer {
+  height: 300px; }
+  #main-footer a {
+    color: #fff; }
+
 @media (max-width: 576px) {
   nav .container {
     width: 100%; } }

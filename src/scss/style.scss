@@ -39,7 +39,7 @@ body{
 #newsletter{
 
 
-  .fa-envelope-open-o{
+  .fa-envelope-open-o {
     padding-right: 5px;
   }
 
@@ -49,10 +49,42 @@ body{
 
 }
 
+.info-header{
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid;
+}
+
+#author{
+  img{
+    margin-top: -50px;
+  }
+  
+  .fa{
+    font-size: 25px;
+  }
+  .card:hover{
+    background: $primary;
+    color: #fff;
+    
+    .fa{
+      color: #fff;
+    }
+  }
+}
+
+#main-footer{
+  height: 300px;
+  a{
+    color: #fff;
+  }
+}
 
 
 @media (max-width: 576px) {
   nav .container {
-    width: 100%; } }
+    width: 100%;
+  }
+}
 
 
